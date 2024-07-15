@@ -1,0 +1,26 @@
+{
+    "name": "maximaster/bitrix-value-objects",
+    "description": "ValueObject'ы, которые могли бы быть в ядре Битрикса.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "webmozart/assert": "^1.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixValueObjects\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Лавриненко Максим",
+            "email": "maxim.lavrinenko@maximaster.ru"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.59",
+        "psalm/phar": "^5.25",
+        "kahlan/kahlan": "^5.2"
+    }
+}
